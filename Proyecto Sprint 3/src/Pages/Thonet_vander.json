@@ -1,0 +1,55 @@
+{"Thonet_vander": {
+	"GetFieldBy": "XPATH",
+	"ValueToFind": "//header/div[2]/div[1]/div[1]/div[1]/a[1]/img[1]"
+  }, 
+
+"Sucursales": {
+	"GetFieldBy": "XPATH",
+	"ValueToFind": "//*[@id='cabecera']/div[1]/div/div[2]/ul/li[1]/a"
+  }, 
+
+"SucursalCABA": {
+	"GetFieldBy": "XPATH",
+	"ValueToFind": "//h3[contains(text(),'C.A.B.A.')]"
+  },
+
+"IniciarSesion": {
+	"GetFieldBy": "XPATH",
+	"ValueToFind": "//*[@id='menuUsuarioDiv']/li[2]/a"
+  },
+  
+"Email": {
+	"GetFieldBy": "ID",
+	"ValueToFind": "inputEmail"	
+  },
+  
+"Password": {
+	"GetFieldBy": "ID",
+	"ValueToFind": "inputPassword"	
+  },
+  
+"Ingresar": {
+	"GetFieldBy": "css",
+	"ValueToFind": "button[type='submit']"
+  },
+  
+"Usuario": {
+	"GetFieldBy": "XPATH",
+	"ValueToFind": "//header/div[2]/div[1]/div[3]/div[1]/div[1]/li[1]/a[1]"
+  },
+  
+"DatosGenerales": {
+	"GetFieldBy": "XPATH",
+	"ValueToFind": "//h2[contains(text(),'Datos Generales')]"
+  },
+  
+"SinResultados": {
+	"GetFieldBy": "XPATH",
+	"ValueToFind": "/html/body/div[5]/div/div[1]"
+  },  
+
+"Ofertas": {
+	"GetFieldBy": "XPATH",
+	"ValueToFind": "//header/div[3]/div[1]/div[1]/ul[1]/li[10]/div[1]"
+  }  
+}
